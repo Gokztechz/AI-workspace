@@ -27,7 +27,7 @@ function App() {
   className="
     absolute
     left-1/2
-    bottom-20
+    bottom-21
     -translate-x-1/2
     w-[850px]
     h-[260px]
