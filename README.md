@@ -1,32 +1,68 @@
-# React + TypeScript + Vite
+# 🚀 AI Workspace
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern AI landing page built using React, TypeScript and Tailwind CSS.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Modern Hero Section
+- Floating Dashboard Cards
+- Glassmorphism UI
+- Responsive Layout
+- Clean Component Structure
+- Cloud Background Effects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── assets/
+ ├── components/
+ │    ├── cards/
+ │    ├── HeroSection.tsx
+ │    ├── Navbar.tsx
+ │    └── FloatingCards.tsx
+ ├── App.tsx
+ └── main.tsx
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## ⚙️ Installation
+
+```bash
+git clone git@github.com:Gokztechz/AI-workspace.git
+
+cd AI-workspace
+
+npm install
+
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+Coming Soon...
+
+---
+
+## 👨‍💻 Author
+
+**Gokul Sharan R**
+
+GitHub:
+https://github.com/Gokztechz
